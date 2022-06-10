@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+ .demo {
+
+        
+
+        overflow: hidden;
+
+        margin: 0 auto;
+
+    }
+
+      
+
+    .demo img {
+
+        width: 100%;
+
+        transition: 0.5s all ease-in-out;
+
+
+    }
+
+      
+
+    .demo:hover img {
+
+        transform: scale(1.5);
+-webkit-filter: brightness(25%);
+    }
+
+h1 {
+  font-family: 'Quicksand';
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+h4 {
+   padding-left: 30px;
+   padding-right: 30px;
+  font-family: 'Quicksand';
+  text-align: center;
+}
+
+h3 {
+   padding-left: 30px;
+   padding-right: 30px;
+  font-family: 'Quicksand';
+  text-align: center;
+  padding-top: 20px
+}
+
+.proj img {
+  padding-left: 45px;
+  padding-right: 45px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 20px
+}
+
+.proj:hover {
+  transform: scale(1.1);
+-webkit-filter: brightness(75%);
+
+      
+
+        transition: 0.5s all ease-in-out;
+}
